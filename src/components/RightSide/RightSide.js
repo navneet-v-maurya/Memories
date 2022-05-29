@@ -1,5 +1,5 @@
 const RightSide = () => {
-  return <h1>RightSide</h1>;
+  return <div>RightSide</div>;
 };
 
 export default RightSide;

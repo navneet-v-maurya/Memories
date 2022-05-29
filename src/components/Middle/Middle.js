@@ -1,5 +1,5 @@
 const Middle = () => {
-  return <h1>Middle</h1>;
+  return <div>Middle</div>;
 };
 
 export default Middle;
