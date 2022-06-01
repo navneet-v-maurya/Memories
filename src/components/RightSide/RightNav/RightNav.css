@@ -1,0 +1,11 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.nav > * {
+  cursor: pointer;
+}
