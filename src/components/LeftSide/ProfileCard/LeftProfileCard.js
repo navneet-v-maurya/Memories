@@ -1,9 +1,8 @@
-import "./ProfileCard.css";
 import cover from "../../../images/mountain.jpg";
 import profilePhoto from "../../../images/navneet.jpg";
-import "./ProfileCard.css";
+import "./LeftProfileCard.css";
 
-const ProfileCard = () => {
+const LeftProfileCard = () => {
   return (
     <div className="ProfileCard">
       <div className="profileImages">
@@ -39,4 +38,4 @@ const ProfileCard = () => {
   );
 };
 
-export default ProfileCard;
+export default LeftProfileCard;

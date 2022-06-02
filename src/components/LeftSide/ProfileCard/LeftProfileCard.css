@@ -8,7 +8,7 @@
   background-color: rgb(250, 251, 252);
 }
 
-.profileImges {
+.profileImages {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -73,12 +73,4 @@
 .verticalLine {
   height: 150%;
   border-left: 2px solid rgb(185, 165, 165);
-}
-
-.ProfileCard > span {
-  font-weight: bold;
-  color: orange;
-  align-self: center;
-  cursor: pointer;
-  margin-bottom: 1rem;
 }

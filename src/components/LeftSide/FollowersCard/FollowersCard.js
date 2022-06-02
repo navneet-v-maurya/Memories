@@ -31,7 +31,7 @@ const FollowersCard = () => {
       <div className="followersList">
         {followers.map((follower) => {
           return (
-            <div className="follower">
+            <div className="follower" key={follower.name}>
               <img src={follower.img} />
               <div className="followerDetails">
                 <span>{follower.name}</span>

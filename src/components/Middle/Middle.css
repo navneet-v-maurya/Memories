@@ -1,5 +1,5 @@
 .Middle {
   display: flex;
   flex-direction: column;
-  overflow: autos;
+  margin-right: 2rem;
 }

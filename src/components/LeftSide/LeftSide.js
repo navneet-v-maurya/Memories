@@ -1,13 +1,13 @@
 import FollowersCard from "./FollowersCard/FollowersCard";
 import "./LeftSide.css";
-import ProfileCard from "./ProfileCard/ProfileCard";
+import LeftProfileCard from "./ProfileCard/LeftProfileCard";
 import SearchBar from "./SearchBar/SearchBar";
 
 const LeftSide = () => {
   return (
     <div className="LeftSide">
       <SearchBar />
-      <ProfileCard />
+      <LeftProfileCard />
       <FollowersCard />
     </div>
   );

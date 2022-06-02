@@ -31,7 +31,7 @@ const Trends = () => {
       <span>Trends for your</span>
       {trends.map((t) => {
         return (
-          <div className="trend">
+          <div className="trend" key={t.trend}>
             <span>#{t.trend}</span>
             <span>{t.share} shares</span>
           </div>

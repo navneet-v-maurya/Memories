@@ -1,0 +1,43 @@
+.InfoCard {
+  width: 90%;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+  overflow-x: clip;
+  padding: 1.5rem;
+  background-color: rgb(250, 251, 252);
+}
+
+.editInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.Info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  padding-left: 0;
+  margin-bottom: 3rem;
+}
+.Info > span {
+  font-size: small;
+}
+
+.Info > span > * {
+  color: rgb(151, 146, 146);
+}
+
+.InfoCard > button {
+  background: linear-gradient(106.23deg, #f99827, #f95f35);
+  color: aliceblue;
+  width: 6rem;
+  border-radius: 5px;
+  padding: 7px 10px;
+  font-size: x-small;
+  border: none;
+  cursor: pointer;
+  align-self: flex-end;
+}

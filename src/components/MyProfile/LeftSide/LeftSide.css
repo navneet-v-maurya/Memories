@@ -1,5 +1,5 @@
-.RightSide {
+.LeftSide {
   display: flex;
   flex-direction: column;
-  z-index: 1;
+  gap: 1rem;
 }
